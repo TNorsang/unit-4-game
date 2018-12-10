@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+    
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Unlock', cursive;
+}
+
+.crystal {
+    margin-left: 12%;
+    width: 10%;
+    height: 10%;
+}
+
+#instructions {
+    border-width: 5px;
+    border-style: solid;
+    border-color: purple;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 12%;
+    padding: 1%;
+    padding-bottom: 1%;
+    width: 75%;
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Button Design Experiment */
+button {
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    color: #ccc;
+    width: 240px;
+    height:80px;
+    border: 1px solid #a208d1;
+    font-size: 18px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+button:focus {
+    outline: none;
+}
+
+button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.5);
+    width: 50px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255,255,255,.2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}
+
+button:hover {
+    background: #a208d1;
+    cursor: pointer;
+}
+
+button:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: 1s;
+}
+
+button:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+/* close button */
+#close {
+    margin-left: 5%;
+    margin-top: 1%;
+    transform: translate(-50%, -50%);
+    background: none;
+    color: #a208d1;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #a208d1;
+    font-size: 18px;
+    border-radius: 4px;
+}
