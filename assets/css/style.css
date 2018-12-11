@@ -61,6 +61,10 @@ h1 {
 }
 
 #yourScore {
+    color: rgb(255, 11, 214);
+    text-align: center;
+    font-size: 108px;
+    line-height: 243px;
     margin-right: 24%;
     margin-top: -16%;
     height: 250px;
