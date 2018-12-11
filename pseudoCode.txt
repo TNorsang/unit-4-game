@@ -1,0 +1,9 @@
+Pseudo Code
+
+1) Four crystals will be displayed on the player's screen
+2) A random generated number is shown on the player's screen
+3) The player has to click on one of the crystals till it adds up to the number shown on the player's screen.
+4) The random number generated for the crystals will be hidden.
+5) If the player's number goes above the target they will get a loss.
+6) If it adds up perfectly the player will win
+7) All the random numbers will reset after a win or loss.

@@ -47,6 +47,10 @@ h1 {
 }
 
 #targetScore {
+    text-align: center;
+    font-size: 108px;
+    line-height: 243px;
+    color: black;
     margin-top: 8%;
     margin-left: -15%;
     height: 250px;
