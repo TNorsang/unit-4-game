@@ -26,13 +26,14 @@ $(document).ready(function() {
     var randomNumber = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
     
     $('#targetScore').text(randomNumber);
+    $('#yourScore').text(yourScore);
 
-    console.log($('#crystal-one').val());
 
     $('.crystal').click(function() {
         $('.crystal').val(Math.floor(Math.random() * (maxCrystal - minCrystal + 1)) + minCrystal);
-        console.log($('#crystal-one').val());
-        $('#yourScore').text($('.crystal').val());
+        yourScore = yourScore + parseInt($('.crystal').val());
+        $('#yourScore').text(yourScore);
+        console.log(yourScore);
 
     });
 
