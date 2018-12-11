@@ -16,6 +16,19 @@ h1 {
     width: 10%;
     height: 10%;
 }
+/* audio controls */
+audio {
+    opacity: .02;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+audio:hover {
+    opacity: 1;
+}
+
 
 #instructions {
     border-width: 5px;
