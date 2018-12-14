@@ -5,21 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/reset.css/">  
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Unlock" rel="stylesheet">
     <title>Crystal Collector</title>
 </head>
 
 <body>
-    <h1> Crystal Collector </h1>
-
-    <!-- Button design Experiment -->
     <div class="wrapper">
+        <header>
+            <h1> Crystal Collector </h1>
+        </header>
+        <!-- Button design Experiment -->
+
         <div class="btn">
             <button id="how-to-play"> How To Play? </button>
         </div>
     </div>
+
     <audio controls>
         <source src="assets/audio/water.mp3" type="audio/mp3">
     </audio>
@@ -46,24 +49,29 @@
 
     <br><br><br>
 
+    
     <div class="scores">
+        <div class="theScore"></div>
         <div class="target-score"> Target Score </div> <span id="targetScore"> </span>
         <div class="your-score"> Your Score </div> <span id="yourScore"> </span>
+        <div class="wins"> Wins : <span id="winScore"> </span> </div>
+        <div class="losses"> Losses : <span id="lossScore"></span> </div>
     </div>
 
-    
+
 
 
     <br><br><br><br><br>
-
+    
+    
     <img src="assets/Images/Crystal1.png" alt="crystals" class="crystal" id="crystal-one">
     <img src="assets/Images/Crystal2.png" alt="crystals" class="crystal" id="crystal-two">
     <img src="assets/Images/Crystal3.png" alt="crystals" class="crystal" id="crystal-three">
     <img src="assets/Images/Crystal4.png" alt="crystals" class="crystal" id="crystal-four">
+    
+    
 
 
-    <div class="wins"> Wins : <span id="winScore"> </span> </div>
-    <div class="losses"> Losses : <span id="lossScore"></span> </div>
 
     <br><br><br>
 

@@ -109,6 +109,7 @@ audio:hover {
 
 /* Button Design Experiment */
 button {
+    margin-top: 4%;
     margin-left: 50%;
     transform: translate(-50%, -50%);
     background: none;
@@ -172,7 +173,7 @@ button:hover:after {
 /* close button */
 #close {
     margin-left: 5%;
-    margin-top: 1%;
+    margin-top: 5%;
     transform: translate(-50%, -50%);
     background: none;
     color: #a208d1;
